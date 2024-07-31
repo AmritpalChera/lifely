@@ -188,12 +188,13 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Hacks For Personal And Career Growth
+            Personal And Career Growth Hacks 
           </h1>
+          <h2 className='font-display text-2xl mt-4 tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl'>
+            For Engineers and Entrepreneurs
+            </h2>
           <p className="mt-6 text-xl text-neutral-600">
-            We are a development studio working at the intersection of coaching
-            and technology. Our platform leverages AI to provide adaptive life
-            coaching services.
+            Simple tricks to help you level up so you can achieve your dreams.
           </p>
         </FadeIn>
       </Container>
