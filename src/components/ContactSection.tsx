@@ -11,7 +11,7 @@ export function ContactSection() {
         <div className="mx-auto max-w-4xl">
           <div className="">
             <h2 className="font-display text-3xl font-medium text-white [text-wrap:balance] sm:text-4xl">
-              Allow us to help you be "better"
+              Allow us to help you be &#34;better&#34;
             </h2>
             <p className='font-display mt-2 text-lg font-medium text-gray-300 [text-wrap:balance] sm:text-xl'>
               Live like a pro - with Lifely.PRO
