@@ -20,6 +20,7 @@ import logoExper from '@/images/clients/experai/dark.png'
 import logoMindplug from '@/images/clients/mindplug/dark.png'
 import imageLaptop from '@/images/laptop.jpg'
 import { Article, type CaseStudy, type MDXEntry, loadArticles, loadCaseStudies } from '@/lib/mdx'
+import { Button } from '@/components/Button'
 
 const clients = [
   ['Lazuli Marketing Conseil', logoLazuli],
@@ -194,8 +195,11 @@ export default async function Home() {
             For Engineers and Entrepreneurs
             </h2>
           <p className="mt-6 text-xl text-neutral-600">
-            Simple tricks to help you level up so you can achieve your dreams.
+            Simple tricks to help you level up so you can achieve your goals.
           </p>
+          <Button href={"#newsletter_form"} className='px-12 bg-black rounded-full text-3xl py-3 mt-6'>
+            Subscribe
+          </Button>
         </FadeIn>
       </Container>
 

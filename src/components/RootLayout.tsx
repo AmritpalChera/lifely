@@ -81,8 +81,8 @@ function Header({
           />
         </Link>
         <div className="flex items-center gap-x-8">
-          <Button href="https://lifely.beehiiv.com/subscribe" invert={invert}>
-            Newsletter
+          <Button href="#newsletter_form" invert={invert}>
+            Subscribe
           </Button>
           <button
             ref={toggleRef}

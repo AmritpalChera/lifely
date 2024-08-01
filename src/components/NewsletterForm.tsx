@@ -51,7 +51,7 @@ const NewsletterForm = ({isDark}: {isDark?: boolean}) => {
 
 
   return (
-    <form onSubmit={handelFormSubmit} className="flex justify-between w-full">
+    <form onSubmit={handelFormSubmit} className="flex justify-between w-full" id="newsletter_form">
       <div className='w-full max-w-sm'>
           <h2 className={clsx("font-display text-sm font-semibold tracking-wider", isDark ? "text-white" : "text-neutral-950")}>
           Sign up for our newsletter
