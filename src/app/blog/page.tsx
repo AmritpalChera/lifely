@@ -14,7 +14,7 @@ import { loadArticles } from '@/lib/mdx'
 export const metadata: Metadata = {
   title: 'Blog',
   description:
-    'Stay up-to-date with the latest industry news as our marketing teams finds new ways to re-purpose old CSS tricks articles.',
+    'Stay up-to-date with the latest hacks on life coaching to accelerate your personal growth and career.',
 }
 
 export default async function Blog() {
