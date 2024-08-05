@@ -197,9 +197,15 @@ export default async function Home() {
           <p className="mt-6 text-xl text-neutral-600">
             Level up your personal life and career with our AI coaching services.
           </p>
-          <Button href={"/products"} className='px-12 bg-black rounded-full text-3xl py-3 mt-6'>
-            Explore Products
+          <div className='flex gap-4'>
+            <Button href={"/products"} className='px-12 bg-black rounded-full text-3xl py-3 mt-6'>
+              Explore Products
+            </Button>
+            <Button invert href={"/blog"} className='px-10 bg-white border border-gray-300 rounded-full text-3xl py-3 mt-6'>
+              Read Blog
           </Button>
+          </div>
+          
         </FadeIn>
       </Container>
 

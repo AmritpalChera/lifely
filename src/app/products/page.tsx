@@ -14,6 +14,7 @@ import { TagList, TagListItem } from '@/components/TagList'
 import imageLaptop from '@/images/laptop.jpg'
 import imageMeeting from '@/images/meeting.jpg'
 import lilyImage from '@/images/lily.png'
+import { Button } from '@/components/Button'
 
 function Section({
   title,
@@ -78,6 +79,9 @@ function Discover() {
           personal and career needs.
         </p>
       </div>
+      <Button href={"https://coachlily.com"} target='blank' className='px-10 bg-black rounded-full text-3xl py-3 mt-6'>
+          Try Now
+      </Button>
 
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
         Included in this phase
