@@ -13,7 +13,7 @@ import { StylizedImage } from '@/components/StylizedImage'
 import { TagList, TagListItem } from '@/components/TagList'
 import imageLaptop from '@/images/laptop.jpg'
 import imageMeeting from '@/images/meeting.jpg'
-import imageWhiteboard from '@/images/whiteboard.jpg'
+import lilyImage from '@/images/lily.png'
 
 function Section({
   title,
@@ -55,27 +55,27 @@ function Section({
 
 function Discover() {
   return (
-    <Section title="Discover" image={{ src: imageWhiteboard }}>
+    <Section title="Coach Lily - Personal Life Coach" image={{ src: lilyImage }}>
       <div className="space-y-6 text-base text-neutral-600">
+        <div>
+          <p> We looked at the main needs of our clients; identifying them to be: </p>
+          <ul>
+              <li><b>Building resilience: </b> Bouncing back from setbacks and adapting.</li>
+              <li><b>Work-life balance: </b> Avoiding burnout and better handeling responsibilites.</li>
+              <li><b>Finding purpose: </b> Aligning actions with personal values.</li>
+              <li><b>Managing stress: </b> Taking control of your life.</li>
+          </ul>
+         
+
+        </div>
         <p>
-          We work closely with our clients to understand their{' '}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
+          Our team has carefully trained coach Lily to guide our users through their needs - {' '}
+          <strong className="font-semibold text-neutral-950">step-by-step</strong>{' '}
+          . The users can chat with Lily 24/7 as she grows alongside them on their journey.
         </p>
         <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{' '}
-          <strong className="font-semibold text-neutral-950">business</strong>{' '}
-          accounts — handing that information over to our forensic accounting
-          team.
-        </p>
-        <p>
-          Once the full audit is complete, we report back with a comprehensive{' '}
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
+          Coach Lily is specifically meant for users looking to chat with someone regarding their
+          personal and career needs.
         </p>
       </div>
 
@@ -83,12 +83,11 @@ function Discover() {
         Included in this phase
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+        <TagListItem>Self-discovery</TagListItem>
+        <TagListItem>Life coaching sessions</TagListItem>
+        <TagListItem>Mental wellness reports</TagListItem>
+        <TagListItem>Mood charts</TagListItem>
+        <TagListItem>Soulful companion</TagListItem>
       </TagList>
     </Section>
   )
@@ -158,17 +157,17 @@ export const metadata: Metadata = {
 export default function Process() {
   return (
     <>
-      <PageIntro eyebrow="Our Products" title="Coming Soon">
+      <PageIntro eyebrow="Toolkit For Your Life" title="Tools List">
         <p>
         Lifely&#39;s products are crafted with care and high attention to detail. Each product serves a niche purpose for efficiency and maximizing our resources to transform lives. Satisfaction guaranteed.
         </p>
       </PageIntro>
 
-      {/* <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
+      <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
         <Discover />
-        <Build />
-        <Deliver />
-      </div> */}
+        {/* <Build />
+        <Deliver /> */}
+      </div>
 
       {/* <Values /> */}
 

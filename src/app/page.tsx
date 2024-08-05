@@ -70,7 +70,7 @@ function CaseStudies({
   return (
     <>
       <SectionIntro
-        title="Harnessing technology for a brighter future"
+        title="Check Out Our Blog"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
@@ -83,7 +83,7 @@ function CaseStudies({
         <FadeInStagger className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           {articles.map((article) => (
             <FadeIn key={article.href} className="flex">
-              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-950/5 transition hover:bg-neutral-50 sm:p-8">
+              <article className="relative flex w-full flex-col rounded-3xl p-6 ring-1 ring-neutral-300 shadow-md transition hover:bg-neutral-50 sm:p-8">
                 <h3>
                   <Link href={article.href}>
                     <span className="absolute inset-0 rounded-3xl" />
@@ -176,7 +176,7 @@ function Services() {
 
 export const metadata: Metadata = {
   description:
-    'A life coaching newsletter for personal and career growth - written by an engineer!',
+    'AI Driven Life Coaching Services!',
 }
 
 export default async function Home() {
@@ -187,18 +187,18 @@ export default async function Home() {
   return (
     <>
       <Container className="mt-24 sm:mt-32 md:mt-56">
-        <FadeIn className="max-w-3xl">
+        <FadeIn className="max-w-4xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Personal And Career Growth Hacks 
+            Tools Empowering Self-Growth & Wellness
           </h1>
           <h2 className='font-display text-2xl mt-4 tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl'>
-            For Engineers and Entrepreneurs
+            Built For Change Seekers
             </h2>
           <p className="mt-6 text-xl text-neutral-600">
-            Simple tricks to help you level up so you can achieve your goals.
+            Level up your personal life and career with our AI coaching services.
           </p>
-          <Button href={"#newsletter_form"} className='px-12 bg-black rounded-full text-3xl py-3 mt-6'>
-            Subscribe
+          <Button href={"/products"} className='px-12 bg-black rounded-full text-3xl py-3 mt-6'>
+            Explore Products
           </Button>
         </FadeIn>
       </Container>
