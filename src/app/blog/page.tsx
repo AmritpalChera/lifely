@@ -22,10 +22,9 @@ export default async function Blog() {
 
   return (
     <>
-      <PageIntro eyebrow="Blog" title="The latest articles and news">
+      <PageIntro eyebrow="Blog" title="The best hacks on life-coaching">
         <p>
-          Stay up-to-date with the latest hacks on life coaching
-          to accelerate your personal growth and career.
+           Accelerate your personal and career growth.
         </p>
       </PageIntro>
 
