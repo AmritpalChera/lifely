@@ -181,7 +181,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
 
   return (
     <MotionConfig transition={shouldReduceMotion ? { duration: 0 } : undefined}>
-      <header>
+      {/* <header>
         <div
           className="absolute left-0 right-0 top-2 z-40 pt-14"
           aria-hidden={expanded ? 'true' : undefined}
@@ -251,13 +251,16 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
             </div>
           </motion.div>
         </motion.div>
-      </header>
+      </header> */}
+
+        
 
       <motion.div
         layout
         style={{ borderTopLeftRadius: 40, borderTopRightRadius: 40 }}
         className="relative flex flex-auto overflow-hidden bg-white pt-14"
       >
+        
         <motion.div
           layout
           className="relative isolate flex w-full flex-col pt-9"
@@ -267,7 +270,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
             yOffset={-96}
             interactive
           />
-
+          
           <main className="w-full flex-auto">{children}</main>
 
           <Footer />

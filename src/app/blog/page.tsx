@@ -22,10 +22,15 @@ export default async function Blog() {
 
   return (
     <>
-      <PageIntro eyebrow="Blog" title="The best hacks on life-coaching">
+      <PageIntro eyebrow="Blog" title="Accelerate you personal and career growth">
         <p>
-           Accelerate your personal and career growth.
+           Subscribe to stay updated on the latest articles
         </p>
+        <div className='w-full flex mt-8'>
+            <Button href="#newsletter_form">
+              Subscribe
+          </Button>
+          </div>
       </PageIntro>
 
       <Container className="mt-24 sm:mt-32 lg:mt-40">
