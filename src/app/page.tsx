@@ -70,13 +70,11 @@ function CaseStudies({
   return (
     <>
       <SectionIntro
-        title="Check Out Our Blog"
+        title="Don't miss out"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          We use AI coaching to provide tailored guidance to reach your goals. And help you find
-          a sense of purpose, develop creativity, manage stress and overcome
-          bad habits.
+          Here are some of the recently published articles
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -189,27 +187,25 @@ export default async function Home() {
       <Container className="mt-24 sm:mt-32 md:mt-56">
         <FadeIn className="max-w-4xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-            Tools Empowering Self-Growth & Wellness
+            Level Up Your Life
           </h1>
           <h2 className='font-display text-2xl mt-4 tracking-tight text-neutral-950 [text-wrap:balance] sm:text-4xl'>
-            Built For Change Seekers
+            With Lifely
             </h2>
           <p className="mt-6 text-xl text-neutral-600">
-            Level up your personal life and career with our AI coaching services.
+            A self-handbook for those who want to understand themselves and their goals
           </p>
           <div className='flex gap-4'>
-            <Button href={"/products"} className='px-12 bg-black rounded-full text-3xl py-3 mt-6'>
-              Explore Products
+            <Button href={"/blog"} className='px-12 bg-black rounded-full text-3xl py-3 mt-6'>
+              Explore Aritcles
             </Button>
-            <Button invert href={"/blog"} className='px-10 bg-white border border-gray-300 rounded-full text-3xl py-3 mt-6'>
-              Read Blog
-          </Button>
+           
           </div>
           
         </FadeIn>
       </Container>
 
-      <Clients />
+      {/* <Clients /> */}
 
       <CaseStudies articles={articles} />
 
@@ -217,9 +213,7 @@ export default async function Home() {
         className="mt-24 sm:mt-32 lg:mt-40"
         client={{ name: 'Amritpal', logo: amritpal }}
       >
-        Lifely transformed the way I see my life. It helped me recognize
-        patterns that were hindering my success and happiness. Now I feel much more aligned with
-        my goals!
+        I made Lifely because of the lack of quality resources online that truly cover the essence of the meaning of life.
       </Testimonial>
 
       <Services />

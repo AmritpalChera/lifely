@@ -39,7 +39,7 @@ export function Testimonial({
               </figcaption>
               <div>
                 <p className='font-semibold'>Amritpal Chera</p>
-                <p className='text-sm'>Pro Lifely User</p>
+                <p className='text-sm'>Founder</p>
               </div>
 
             </div>

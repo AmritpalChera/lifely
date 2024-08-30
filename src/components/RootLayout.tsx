@@ -181,7 +181,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
 
   return (
     <MotionConfig transition={shouldReduceMotion ? { duration: 0 } : undefined}>
-      {/* <header>
+      <header>
         <div
           className="absolute left-0 right-0 top-2 z-40 pt-14"
           aria-hidden={expanded ? 'true' : undefined}
@@ -251,7 +251,7 @@ function RootLayoutInner({ children }: { children: React.ReactNode }) {
             </div>
           </motion.div>
         </motion.div>
-      </header> */}
+      </header>
 
         
 
